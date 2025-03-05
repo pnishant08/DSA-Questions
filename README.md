@@ -61,9 +61,9 @@ Contributions are always welcome! Whether it's fixing bugs, adding new solutions
 If you find this repository helpful, please **star this repo** 🌟 and follow me for more updates!
 
 ## 📌 Connect with Me
-- LinkedIn: [Nishant](https://www.linkedin.com/in/nishant-p-749b44213/)
-- GitHub: [pnishant08](https://github.com/pnishant08)
-- Leetcode: [pnishant](https://leetcode.com/pnishant/)
+- LinkedIn: [Click here](https://www.linkedin.com/in/nishant-p-749b44213/)
+- GitHub: [Click here](https://github.com/pnishant08)
+- Leetcode: [Click here](https://leetcode.com/pnishant/)
 - Email: pnishant0824@gmail.com
 
 Happy Coding! 💻♟️
