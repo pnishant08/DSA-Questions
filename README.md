@@ -63,24 +63,7 @@ Contributions are always welcome! Whether it's fixing bugs, adding new solutions
 ## ✨ Contributors
 Thanks to these amazing people for contributing! 💖
 
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/pnishant08">
-        <img src="https://github.com/pnishant08.png" width="100px;" alt="Nishant"/>
-        <br />
-        <sub><b>Nishant</b></sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/other-contributor">
-        <img src="https://github.com/other-contributor.png" width="100px;" alt="Other Contributor"/>
-        <br />
-        <sub><b>Other Contributor</b></sub>
-      </a>
-    </td>
-  </tr>
-</table>
+[![Contributors](https://contrib.rocks/image?repo=pnishant08/DSA-Questions)](https://github.com/pnishant08/DSA-Questions/contributors)
 
 If you contributed and don’t see your name, feel free to open a pull request to add yourself! 😊
 
