@@ -1,5 +1,6 @@
 Ques 3208 .  Alternating Groups II
 
+                                             // Solution in CPP //
 
 class Solution {
 public:
@@ -27,9 +28,9 @@ public:
 };
 
 
-//////////////////////
-//Solution in python//
-//////////////////////
+
+                                             //Solution in python//
+
 
 class Solution:
     def numberOfAlternatingGroups(self, colors: List[int], k: int) -> int:
