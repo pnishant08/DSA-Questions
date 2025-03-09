@@ -1,0 +1,27 @@
+Ques 3208 .  Alternating Groups II
+
+
+class Solution {
+public:
+    int numberOfAlternatingGroups(vector<int>& colors, int k) {
+        int n=colors.size();
+        int cnt=0;
+        int l=0;
+        int limit=n+k-1;
+
+        while(l<n){
+            // find the largest valid window
+            int r=l+1;
+            while(r<limit and colors[(r-1)%n]!=colors[r%n]){
+                r++;
+            }
+            // count valid window
+            if(r-l>=k){
+                cnt+=(r-l)-k+1;
+            }
+            // set the new start position
+            l=r;
+        }
+        return cnt;
+    }
+};
