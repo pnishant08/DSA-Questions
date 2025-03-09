@@ -73,7 +73,7 @@ If you contributed and don’t see your name, feel free to open a pull request t
 If you find this repository helpful, please **star this repo** 🌟 and follow me for more updates!
 
 ## 📌 Connect with Me
-- LinkedIn: [Click here](https://www.linkedin.com/in/pnishant/)
+- LinkedIn: [Click here](https://www.linkedin.com/in/pnishant08/)
 - GitHub: [Click here](https://github.com/pnishant08)
 - Leetcode: [Click here](https://leetcode.com/pnishant/)
 - Email: pnishant0824@gmail.com
