@@ -37,6 +37,7 @@ This repository is my personal journey to improve problem-solving skills while h
 - Stack & Queue
 - Hash Maps
 - Backtracking
+- Sliding Window
 
 ## 🎯 How to Use This Repository
 1. Clone the repo:
@@ -57,6 +58,34 @@ Contributions are always welcome! Whether it's fixing bugs, adding new solutions
 3. Commit your changes.
 4. Open a Pull Request.
 
+---
+
+## ✨ Contributors
+Thanks to these amazing people for contributing! 💖
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/pnishant08">
+        <img src="https://github.com/pnishant08.png" width="100px;" alt="Nishant"/>
+        <br />
+        <sub><b>Nishant</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/other-contributor">
+        <img src="https://github.com/other-contributor.png" width="100px;" alt="Other Contributor"/>
+        <br />
+        <sub><b>Other Contributor</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+If you contributed and don’t see your name, feel free to open a pull request to add yourself! 😊
+
+---
+
 ## ⭐ Support
 If you find this repository helpful, please **star this repo** 🌟 and follow me for more updates!
 
@@ -75,6 +104,5 @@ Happy Coding! 💻♟️
 ### Top Languages
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=pnishant08&layout=compact&theme=radical)
 
-## 📜 License
+## 📝 License
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
