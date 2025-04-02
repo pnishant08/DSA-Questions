@@ -1,0 +1,24 @@
+Ques 2140 : Solving Questions With Brainpower
+
+
+##solution in c++ 
+
+
+class Solution {
+    #define ll long long
+public:
+    ll solve(vector<vector<int>>&ques,int pos,vector<ll>&mem){
+       if(pos>=ques.size())return 0;
+       if(mem[pos]!=-1)return mem[pos];
+
+       ll exc=solve(ques,pos+1,mem);
+       ll inc=ques[pos][0]+solve(ques,pos+ques[pos][1]+1,mem);
+       return mem[pos]=max(exc,inc);
+    }
+
+    long long mostPoints(vector<vector<int>>& questions) {
+        int n=questions.size();
+        vector<ll>mem(n,-1);
+        return solve(questions,0,mem);
+    }
+};
