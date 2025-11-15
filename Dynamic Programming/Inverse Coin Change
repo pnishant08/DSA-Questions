@@ -1,0 +1,43 @@
+Ques 3592 .Inverse Coin Change
+
+class Solution {
+public:
+    int solve(int i, vector<int>& coins, int target, vector<vector<int>>& dp) {
+        if (target == 0)
+            return 1;
+        if (i == coins.size() || target < 0)
+            return 0;
+
+        if (dp[i][target] != -1)
+            return dp[i][target];
+
+        int notTake = solve(i + 1, coins, target, dp);
+        int take = solve(i, coins, target - coins[i], dp);
+
+        return dp[i][target] = take + notTake;
+    }
+
+    int findWays(vector<int>& coins, int target) {
+        if (coins.size() == 0)
+            return 0;
+        vector<vector<int>> dp(coins.size(), vector<int>(target + 1, -1));
+        return solve(0, coins, target, dp);
+    }
+
+    vector<int> findCoins(vector<int>& numWays) {
+        int n = numWays.size();
+        vector<int> coins;
+
+        for (int i = 1; i <= n; i++) {
+            int ways = findWays(coins, i);
+            if (ways + 1 == numWays[i - 1]) {
+                coins.push_back(i);
+            } else if (ways == numWays[i - 1])
+                continue;
+            else
+                return {};
+        }
+
+        return coins;
+    }
+};
